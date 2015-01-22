@@ -262,6 +262,7 @@ public class ObjectOperations implements Serializable{
 
 	public String getObjectType() {
 		return objectType;
+		//System.out.println("test");
 	}
 
 	public void setObjectType(String objectType) {
