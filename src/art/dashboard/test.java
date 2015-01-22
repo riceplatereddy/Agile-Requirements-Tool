@@ -19,6 +19,7 @@ public class test {
 					while (r.next()) {
 						System.out.println("User: " + r.getString("username"));
 						System.out.println("passwd: " + r.getString("password"));
+						System.out.println("Test");
 					}
 				} catch (SQLException e) {
 					// TODO Auto-generated catch block
